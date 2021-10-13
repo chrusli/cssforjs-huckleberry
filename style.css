@@ -1,0 +1,49 @@
+* {
+  box-sizing: border-box;
+  font-family: "Lato", sans-serif;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+strong {
+  color: hsl(160deg, 100%, 30%);
+}
+
+header {
+  border-bottom: 3px solid hsl(0deg, 0%, 40%);
+}
+
+main {
+  background: hsl(0deg, 0%, 60%);
+}
+
+.max-width-wrapper {
+  max-width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 32px 0;
+}
+
+.intro-chunk {
+  padding: 0 16px;
+  width: 70%;
+  min-width: 283px;
+}
+
+.card {
+  background: hsl(0deg, 0%, 100%);
+  padding: 0 16px;
+  border-bottom: 3px solid hsl(0deg, 0%, 40%);
+}
+
+.indented-heading {
+  width: fit-content;
+  background: hsl(45deg, 100%, 50%);
+  border-bottom: 3px solid hsl(45deg, 100%, 40%);
+  padding: 16px 32px;
+  margin-left: -24px;
+}
